@@ -4,13 +4,13 @@ cd OpenWeatherAssignment
 ```
 
 ```
-docker build -t ashpreetSingh-Flask-App .
+docker build -t ashpreetsingh-flask-app .
 ```
 
 # Run Docker Image
 
 ```
-docker run -d -p 5000:5000 ashpreetSingh-Flask-App
+docker run -d -p 5000:5000 ashpreetsingh-flask-app
 ```
 
 
