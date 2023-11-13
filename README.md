@@ -36,12 +36,11 @@ Install Dependencies: Use the provided 'requirements.txt' file to install the ne
 Run the Server: Use the Dockerfile to build and run the containerized server.
 Usage
 
-Triggering API: To fetch weather records, send a POST request to http://127.0.0.1:5000/weather with the city and country code as JSON data. An example Python script Requestjupyter.ipynb is provided to demonstrate this.
+Triggering API: To fetch weather records, send a POST request with the city and country code as JSON data. An example Python script Requestjupyter.ipynb is provided to demonstrate this.
 Retrieve Stored Records: You can retrieve stored records from the database using the provided 'Requestjupyter.ipynb' file or by directly querying the database. The table 'weather' stores temperature, humidity, description, wind speed, and the date and time of data retrieval.
 File Structure
 
-AssignmentWork.py: Contains the Flask server code for fetching weather data and storing it in the database.
-Requestjupyter.ipynb: A Jupyter notebook demonstrating how to trigger the API and retrieve stored records.
+App.py: Contains the Flask server code for fetching weather data and storing it in the database.
 requirements.txt: Lists the Python package dependencies required for the server.
 Dockerfile: Specifies the configuration for containerizing the application.
 Submission
