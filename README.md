@@ -1,6 +1,6 @@
 # Build Docker Image
 ```
-cd Repo
+cd OpenWeatherAssignment
 ```
 
 ```
